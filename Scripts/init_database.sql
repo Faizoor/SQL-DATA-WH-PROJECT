@@ -13,6 +13,7 @@ Go
 --Create Databse "datawarehouse"
 create database datawarehouse ;
 Go
+
 use datawarehouse;
 Go
 
