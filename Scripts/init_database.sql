@@ -14,6 +14,7 @@ Go
 create database datawarehouse ;
 Go
 use datawarehouse;
+Go
 
 --Create Schemas
 create schema bronze;
