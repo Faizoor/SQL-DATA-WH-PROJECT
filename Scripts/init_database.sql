@@ -23,6 +23,5 @@ create schema silver;
 Go
 
 create schema gold;
-Go
 
 
