@@ -1,5 +1,8 @@
 /*
-
+=====================================================
+CREATE DATABASES AND SCHEMAS
+=====================================================
+Script Purpose:
 This script creates a new database named "datawarehouse" and within the database it will create theree schemas Bronze, silver and gold.
 
 PS: if the database named "datawarehouse" already exists please drop and run the script 
