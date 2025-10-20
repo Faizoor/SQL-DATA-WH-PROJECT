@@ -2,8 +2,22 @@
 ====================================================================================
 Stored Procedure: Load silver layer ( Bronze -> silver)
 ====================================================================================
+Description:
+    This stored procedure truncates the target silver table and load the data from Bronze 
+table after performing necessary transformation.
 
+Purpose:
+    - Ensure the silver layer always contains a fresh copy of the source data.
+    - Maintain consistency by truncating the table before each load. 
+
+Parameters:
+    None
+
+Execution:
+  EXEC silver.load_bronze;
+=============================================================================================================
 */
+
 
 CREATE OR ALTER PROCEDURE SILVER.LOAD_SILVER AS 
 BEGIN 
