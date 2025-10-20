@@ -7,8 +7,8 @@ Description:
 table after performing necessary transformation.
 
 Purpose:
-    - Ensure the silver layer always contains a fresh copy of the source data.
-    - Maintain consistency by truncating the table before each load. 
+    - Truncate the silve layer tables.
+    - Load the Transformed and cleansed data from Bronze to silver. 
 
 Parameters:
     None
